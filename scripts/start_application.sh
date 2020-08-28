@@ -2,4 +2,5 @@
 
 cd /opt/tomcat/bin
 
+
 ./startup.sh
