@@ -1,0 +1,12 @@
+version: 0.2
+os: linux
+files:
+  - source: /springboot-0.0.1-SNAPSHOT.war
+    destination: /opt/tomcat/webapps/
+hooks:
+  ApplicationStop:
+    - location: scripts/stop_application
+      timeout: 300
+  ApplicationStart:
+    - location: scripts/start_application
+      timeout: 300
