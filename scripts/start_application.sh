@@ -2,4 +2,4 @@
 
 cd /opt/tomcat/bin/
 
-./shutdown.sh
+./startup.sh
