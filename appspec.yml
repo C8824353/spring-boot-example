@@ -9,7 +9,7 @@ hooks:
       timeout: 300
       runas: root
   BeforeInstall:
-    - location: scripts/stop_application.sh
+    - location: scripts/uninstall_war_file.sh
       timeout: 300
       runas: root
   ApplicationStart:
