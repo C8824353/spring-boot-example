@@ -10,6 +10,6 @@ public class HelloController {
 
     @GetMapping
     public String hello() {
-        return "Welcome to MY First CICD IMPLEMENTATION USING AWS SERVICES";
+        return "Welcome to MY First CICD IMPLEMENTATION USING AWS SERVICES=========================";
     }
 }
