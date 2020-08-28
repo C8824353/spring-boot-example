@@ -1,4 +1,3 @@
 #!/bin/sh
 
-
-tomcatup
+sh $CATALINA_HOME/bin/startup.sh
