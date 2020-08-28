@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /springboot-0.0.1-SNAPSHOT.war
+  - source: /target/springboot-0.0.1-SNAPSHOT.war
     destination: /opt/tomcat/webapps/
 hooks:
   ApplicationStop:
