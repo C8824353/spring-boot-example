@@ -1,3 +1,5 @@
 #!/bin/sh
 
-sh $CATALINA_HOME/bin/shutdown.sh
+cd /opt/tomcat/bin
+
+./shutdown.sh

@@ -1,3 +1,5 @@
 #!/bin/sh
 
-sh $CATALINA_HOME/bin/startup.sh
+cd /opt/tomcat/bin
+
+./startup.sh
